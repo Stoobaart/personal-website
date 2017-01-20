@@ -59,7 +59,6 @@
 }
 #bgimg3 {
 	background-image: url("../jpegs/StuSitting.jpg");
-	height: 700px;
 }
 
 .image {
@@ -93,7 +92,6 @@ section {
 	}
 }
 
-
 //=======================?????????========================
 
 .caption {
@@ -102,11 +100,15 @@ section {
 }
 
 .caption span.border {
-
     color: #fff;
     padding: 18px;
     font-size: 45px;
     letter-spacing: 10px;
+}
+p#text-block {
+	overflow-wrap: break-word;
+    padding: 1vh 5vw 1vh 5vw;
+    color: #111;
 }
 
 //=======================Biography========================
@@ -115,11 +117,6 @@ section {
 	h3 {
 		padding-top: 2vh;
 	}
-	p#text-block {
-		overflow-wrap: break-word;
-	    padding: 1vh 5vw 1vh 5vw;
-	    color: #111;
-	}
 }
 //========================SKILLS===========================
 
@@ -127,18 +124,10 @@ section {
 	background-color: white;
 }
 
-
-
-
-
-
-
-
 div .panel {
 	height: 460px;
 	text-align: left;
 }
-
 
 div.large.columns {
 	height: 721px;
