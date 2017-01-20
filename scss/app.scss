@@ -53,6 +53,7 @@
 // ========================images============================
 #bgimg1 { 
     background-image: url("../jpegs/StuFace.jpg");
+    height: 630px;
 }
 #bgimg2 { 
     background-image: url("../jpegs/StuHorse.jpg");
@@ -66,10 +67,9 @@
 #bgimg5 {
 	background-image: url("../jpegs/StuStatue.jpg");
 }
-
 .image {
     /* Set a specific height */
-    height: 600px; 
+    height: 500px; 
 
     /* Create the parallax scrolling effect */
     position: relative;
@@ -78,8 +78,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-//========================================================= 
+} 
 
 //==========================MAIN===========================
 
@@ -92,20 +91,25 @@ ul {
 }
 .caption {
 	background-color: #111;
-	height: 140px;
+	height: auto;
+	padding: 12px;
 }
 
 .caption span.border {
     color: #fff;
-    padding: 18px;
-    font-size: 45px;
+    font-size: 25px;
     letter-spacing: 10px;
+}
+header {
+	font-size: 45px;
+	color: #fff;
 }
 p#text-block {
 	overflow-wrap: break-word;
     padding: 1vh 5vw 1vh 5vw;
     color: #111;
 }
+
 
 //=========================HEADER==========================
 
@@ -116,6 +120,14 @@ section {
 		}
 	}
 }
+//=========================NAVBAR=========================
+
+.navbar {
+	background-color: black;
+	
+} 
+
+
 //=======================ICON=LINKS=======================
 
 a#aria-desc {
