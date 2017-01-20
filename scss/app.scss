@@ -49,3 +49,108 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// ========================images============================
+#bgimg1 { 
+    background-image: url("../jpegs/StuFace.jpg");
+}
+#bgimg2 { 
+    background-image: url("../jpegs/StuHorse.jpg");
+}
+#bgimg3 {
+	background-image: url("../jpegs/StuSitting.jpg");
+	height: 700px;
+}
+
+.image {
+    /* Set a specific height */
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//========================================================= 
+
+//==========================MAIN===========================
+
+body {
+	min-width: 505px;
+	text-align: center;
+}
+
+//=========================HEADER==========================
+
+section {
+	div {
+		h4, p {
+			color: #fff;
+		}
+	}
+}
+
+
+//=======================?????????========================
+
+.caption {
+	background-color: #111;
+	height: 140px;
+}
+
+.caption span.border {
+
+    color: #fff;
+    padding: 18px;
+    font-size: 45px;
+    letter-spacing: 10px;
+}
+
+//=======================Biography========================
+#bio {
+	background-color: white;
+	h3 {
+		padding-top: 2vh;
+	}
+	p#text-block {
+		overflow-wrap: break-word;
+	    padding: 1vh 5vw 1vh 5vw;
+	    color: #111;
+	}
+}
+//========================SKILLS===========================
+
+#skills {
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+div .panel {
+	height: 460px;
+	text-align: left;
+}
+
+
+div.large.columns {
+	height: 721px;
+}
+
+
+
+
+
+
+
+
+
+
+
