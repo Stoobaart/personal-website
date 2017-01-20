@@ -81,19 +81,6 @@ body {
 	min-width: 505px;
 	text-align: center;
 }
-
-//=========================HEADER==========================
-
-section {
-	div {
-		h4, p {
-			color: #fff;
-		}
-	}
-}
-
-//=======================?????????========================
-
 .caption {
 	background-color: #111;
 	height: 140px;
@@ -110,6 +97,22 @@ p#text-block {
     padding: 1vh 5vw 1vh 5vw;
     color: #111;
 }
+
+//=========================HEADER==========================
+
+section {
+	div {
+		h4, p {
+			color: #fff;
+		}
+	}
+}
+//=======================ICON=LINKS=======================
+
+a#aria-desc {
+	color: transparent;
+}
+
 
 //=======================Biography========================
 #bio {
