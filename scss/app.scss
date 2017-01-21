@@ -59,7 +59,7 @@
 // ========================images============================
 #bgimg1 { 
     background-image: url("../jpegs/StuFace.jpg");
-    height: 640px;
+    height: 720px;
 }
 #bgimg2 { 
     background-image: url("../jpegs/StuHorse.jpg");
@@ -72,6 +72,7 @@
 }
 #bgimg5 {
 	background-image: url("../jpegs/StuStatue.jpg");
+	height: 700px;
 }
 .image {
     /* Set a specific height */
@@ -96,8 +97,8 @@ ul {
 }
 .caption {
 	background-color: #111;
-	height: 150px;
-	padding: 12px;
+	height: auto;
+	padding: 35px;
 }
 
 .caption span.border {
@@ -111,14 +112,16 @@ header {
 }
 p#text-block {
 	overflow-wrap: break-word;
-    padding: 0 5vw 3vh 5vw;
+    padding: 0 5vw 5vh 5vw;
     color: #111;
     margin-bottom: -20px;
 }
 div.row {
 	height: 420px;
 }
-
+h3 {
+	padding: 10px 0 10px 0;
+}
 
 //=========================HEADER==========================
 
@@ -142,29 +145,28 @@ section {
 a#aria-desc {
 	color: transparent;
 }
-a {
-	i {
-		margin-left: 1vw; 
-	}
+i {
+	margin-left: 1vw; 
 }
-i#menu {
-	color: #4593c7;
+i#menu, #close-btn {
+	color: #1077bb;
+	cursor: pointer;
 }
-#link1, #link3, #link4 {
+
+#link1, #link3, #close-btn {
 	animation: glowing 6200ms infinite;
 	padding: 0 10px 0 10px;
 	border-radius: 8px;
 	font-size: 116px;
-	transition: all 0.3s ease 0s
+	transition: all 0.3s ease 0s;
 }
 #link2 {
 	animation: glowing 6200ms infinite;
 	padding: 0 10px 0 10px;
 	border-radius: 5px;
 	font-size: 100px;
-	transition: all 0.3s ease 0s
+	transition: all 0.3s ease 0s;
 }
-
 
 //=======================Biography========================
 #bio {
@@ -189,8 +191,8 @@ div #link-panel {
 	text-align: left;
 }
 
-div.large.columns {
-	height: 721px;
+div #contact-div {
+	margin-top: 26vh;
 }
 
 
