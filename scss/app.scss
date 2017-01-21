@@ -76,7 +76,7 @@
 }
 .image {
     /* Set a specific height */
-    height: 525px; 
+    height: 575px; 
      /* Create the parallax scrolling effect */
     position: relative;
     opacity: 0.8;
@@ -89,7 +89,7 @@
 //==========================MAIN===========================
 
 body {
-	min-width: 508px;
+	min-width: 360px;
 	text-align: center;
 }
 ul {
@@ -118,7 +118,7 @@ p#text-block {
 }
 p#bio-block {
 	overflow-wrap: break-word;
-    padding: 0 5vw 5vh 5vw;
+    padding: 0 5vw 10vh 5vw;
     color: #111;
     margin-bottom: -20px;
 }
@@ -139,11 +139,14 @@ section {
 		}
 	}
 }
+#title-head {
+	padding: 28px;
+}
 //=========================NAVBAR=========================
 
 .navbar {
 	background-color: black;
-	word-spacing: 10vw;
+	word-spacing: 9vw;
 } 
 
 
@@ -181,16 +184,23 @@ i#menu, #close-btn {
 //=======================Biography========================
 #bio {
 	background-color: white;
-	opacity: 0.7;
+	opacity: 0.9;
 	margin-top: 5px;
+	max-height: 460px;
 	h3 {
 		padding-top: 2vh;
+		margin-top: 18px;
+		#about-me {
+		background-color: white;
+		}	
 	}
 }
+
 //========================SKILLS===========================
 
 #skills {
 	background-color: white;
+	margin-top: 50px;
 }
 
 div .panel {
@@ -205,7 +215,9 @@ div #contact-div {
 	margin-top: 26vh;
 }
 
-
+#contact {
+	margin-top: -50px;
+}
 
 
 
